@@ -4,5 +4,5 @@
 
 > The meaning of **FRIENDSHIP** is one of the most common thing to define the statue of liberty.
 
->It means that the friendship build more than the before times.
+> And it is located in the Newyork Bay .
 >> That's why the statue is the **MOST FAVORITE PLACE**.
