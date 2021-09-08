@@ -36,3 +36,40 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 >**Author:** *Thomas A. Edison*<br>
 >“If you want to live a happy life, tie it to a goal, not to people or things.”
 >**Author:** *Albert Einstein*
+
+-----
+# New Section about Code Fencing
+>Combinatorics is an area of mathematics primarily concerned with counting, Both as a means an end in Obtaining results and certain properties of finite structures. It is closely related to many other areas of mathematics and has many applications from logic to other related areas. quick link to source code<https://en.wikipedia.org/wiki/Combinatorics>
+-----
+int solve (int n, int r)
+    vector<int> p;
+    for (int i=2; i*i<=n; ++i)
+        if (n % i == 0){
+           p.push_back (i);
+           while (n % i == 0)
+               n /= i;
+        }
+   if (n > 1)
+       p.push_back (n);
+
+   int sum = 0;
+   for (int msk=1; msk<(1<<p.size()); ++msk) {
+      int mult = 1;
+           bits = 0;
+      for (int i=0; i<(int)p.size(); ++i)
+          if (msk & (1<<i)) {
+             ++bits;
+             mult *= p[i];
+          }
+
+      int cur * r / mult;
+      if (bits % 2 == 1)
+         sum += cur;
+      else
+          sum -= cur;
+   }
+
+   return r - sum;
+}
+-----
+
