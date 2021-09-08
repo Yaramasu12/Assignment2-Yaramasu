@@ -21,7 +21,7 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 
 # Heading for the  creating a Table foods and drinks
 
-Introduction:
+**Introduction:**
  The following is to create a table with atleast 4 food/drinks that you would recommend someone try. Include a short paragraph that introduces the table.
 
 |Mandatory   |fav1            |fav2             |fav3             |fav4            |
