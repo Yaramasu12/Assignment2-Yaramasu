@@ -14,10 +14,10 @@ That's why the statue is the **MOST FAVORITE PLACE**.
    1. Newark Harbour
    2. Liberty Island
 3. Statue of Liberty National Monument.
- * Ellis Island
- * Brooklyn Bridge
-   * City Tour Hub
-   * Rockefeller Center
+ * More money 
+ * DSLR Camera
+   * Bicycle for Rent
+   * Snacks
 **[LinktoAboutme.md](Aboutme.md)**
 
 ------
