@@ -7,6 +7,7 @@
 >And it is located in the Newyork Bay.<br>
 That's why the statue is the **MOST FAVORITE PLACE**.
 
+-----
 # Heading for access to reach the place with order list and unordered list
 1. Go to then St.Louis Lambert international Airport.
 2. To go to John F. Kennedy international Airport.
@@ -19,6 +20,7 @@ That's why the statue is the **MOST FAVORITE PLACE**.
    * Rockefeller Center
 **[LinktoAboutme.md](Aboutme.md)**
 
+------
 # Heading for the  creating a Table foods and drinks
 
 **Introduction:**
