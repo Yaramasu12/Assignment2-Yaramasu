@@ -31,3 +31,8 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 |Amount      |800             |80               |30               |100             |
 
 -----
+# Section of Quotes
+>"Many of life’s failures are people who did not realize how close they were to success when they gave up."
+>**Author:** *Thomas A. Edison*<br>
+>“If you want to live a happy life, tie it to a goal, not to people or things.”
+>**Author:** *Albert Einstein*
