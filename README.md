@@ -8,6 +8,12 @@
 That's why the statue is the **MOST FAVORITE PLACE**.
 
 # Heading for access to reach the place with order list and unordered list
-1. Go to the kansas International Airport.
-2. To go to Newark Liberty International Airport.
-   1. 
+1. Go to then St.Louis Lambert international Airport.
+2. To go to John F. Kennedy international Airport.
+   1. Newark Harbour
+   2. Liberty Island
+3. Statue of Liberty National Monument.
+ * Ellis Island
+ * Brooklyn Bridge
+   * City Tour Hub
+   * Rockefeller Center
