@@ -41,10 +41,10 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 # New Section about Code Fencing
 >Combinatorics is an area of mathematics primarily concerned with counting, Both as a means an end in Obtaining results and certain properties of finite structures. It is closely related to many other areas of mathematics and has many applications from logic to other related areas. quick link to source code<https://en.wikipedia.org/wiki/Combinatorics>
 -----
-int solve (int n, int r)
+int solve (int n, int r) {
     vector<int> p;
     for (int i=2; i*i<=n; ++i)
-        if (n % i == 0){
+        if (n % i == 0) {
            p.push_back (i);
            while (n % i == 0)
                n /= i;
