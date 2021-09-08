@@ -7,7 +7,7 @@
 >And it is located in the Newyork Bay.<br>
 That's why the statue is the **MOST FAVORITE PLACE**.
 
-# Directions from Maryvile to Statue of Liberty.
+# Heading for access to reach the place with order list and unordered list
 1. Go to the kansas International Airport.
 2. To go to Newark Liberty International Airport.
-3.
+   1. 
