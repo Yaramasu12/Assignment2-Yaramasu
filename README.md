@@ -45,10 +45,10 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 int solve (int n, int r) {
     vector<int> p;
     for (int i=2; i*i<=n; ++i)
-      if (n % i == 0) {
-           p.push_back (i);
-           while (n % i == 0)
-               n /= i;
+        if (n % i == 0) {
+            p.push_back (i);
+            while (n % i == 0)
+                n /= i;
         }
    if (n > 1)
        p.push_back (n);
