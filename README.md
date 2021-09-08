@@ -73,5 +73,6 @@ int main() {
             printf("%d %d\n", mt[i] + 1, i + 1);
 }
 ```
+
 quick link to source code<https://cp-algorithms.com/graph/kuhn_maximum_bipartite_matching.html>
 
