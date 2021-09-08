@@ -39,38 +39,37 @@ That's why the statue is the **MOST FAVORITE PLACE**.
 
 -----
 # New Section about Code Fencing
->Combinatorics is an area of mathematics primarily concerned with counting, Both as a means an end in Obtaining results and certain properties of finite structures. It is closely related to many other areas of mathematics and has many applications from logic to other related areas. quick link to source code<https://en.wikipedia.org/wiki/Combinatorics>
----
+>A maximal matching can be found with a simple greedy algorithm. A maximum matching is also a maximal matching, and hence it is possible to find a largest maximal matching in polynomial time. However, no polynomial-time algorithm is known for finding a minimum maximal matching, that is, a maximal matching that contains the smallest possible number of edges. A maximal matching with k edges is an edge dominating set with k edges. Conversely, if we are given a minimum edge dominating set with k edges, we can construct a maximal matching with k edges in polynomial time. Therefore, the problem of finding a minimum maximal matching is essentially equal to the problem of finding a minimum edge dominating set. Both of these two optimization problems are known to be NP-hard; the decision versions of these problems are classical examples of NP-complete problems. Both problems can be approximated within factor 2 in polynomial time: simply find an arbitrary maximal matching M.Quick link to source code<https://en.wikipedia.org/wiki/Matching_(graph_theory)>
+````
+int n, k;
+vector<vector<int>> g;
+vector<int> mt;
+vector<bool> used;
 
-int solve (int n, int r) {
-    vector<int> p;
-    for (int i=2; i*i<=n; ++i)
-        if (n % i == 0) {
-            p.push_back (i);
-            while (n % i == 0)
-                n /= i;
+bool try_kuhn(int v) {
+    if (used[v])
+        return false;
+    used[v] = true;
+    for (int to : g[v]) {
+        if (mt[to] == -1 || try_kuhn(mt[to])) {
+            mt[to] = v;
+            return true;
         }
-   if (n > 1)
-       p.push_back (n);
-
-   int sum = 0;
-   for (int msk=1; msk<(1<<p.size()); ++msk) {
-      int mult = 1;
-           bits = 0;
-      for (int i=0; i<(int)p.size(); ++i)
-          if (msk & (1<<i)) {
-             ++bits;
-             mult *= p[i];
-          }
-
-      int cur * r / mult;
-      if (bits % 2 == 1)
-         sum += cur;
-      else
-          sum -= cur;
-   }
-
-   return r - sum;
+    }
+    return false;
 }
------
+
+int main() {
+    //... reading the graph ...
+
+    mt.assign(k, -1);
+    for (int v = 0; v < n; ++v) {
+        used.assign(n, false);
+        try_kuhn(v);
+    }
+
+    for (int i = 0; i < k; ++i)
+        if (mt[i] != -1)
+            printf("%d %d\n", mt[i] + 1, i + 1);
+}
 
